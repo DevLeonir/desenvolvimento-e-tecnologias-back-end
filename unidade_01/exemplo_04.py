@@ -1,8 +1,5 @@
-a = int(input("Digite o 1º valor: "))
-b = int(input("Digite o 2º valor: "))
+a = float(input("Digite o 1º valor: "))
+b = float(input("Digite o 2º valor: "))
 
-print("A soma é ", (a+b))
-print("A subtração é ", (a-b))
-print("A multiplicação é ", (a*b))
-print("A divisão é ", (a/b))
-print("O resto da sivisão é ", (a%b))
+media = (a + b) / 2
+print("A média é ", media)
