@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Título Padrão{% endblock %}</title>
+</head>
+<body>
+    <header>
+        <h1>Minha Base</h1>
+    </header>
+
+    <main>
+        {% block content %}
+        {% endblock %}
+    </main>
+
+    <footer>
+        <p>Rodapé da página</p>
+    </footer>
+</body>
+</html>
