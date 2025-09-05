@@ -8,3 +8,5 @@ email varchar(40),
 telefone varchar(15),
 idade int
 );
+
+select * from tb_cliente;
